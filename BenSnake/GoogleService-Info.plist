@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>531355288606-s092hsc1o0vcjnsgq6rs09qsg4hg0ut0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.531355288606-s092hsc1o0vcjnsgq6rs09qsg4hg0ut0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAc0TPiwvJAMNPlPDESdLRN63WQe_IMj74</string>
+	<key>GCM_SENDER_ID</key>
+	<string>531355288606</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>BehorDev.BenSnake</string>
+	<key>PROJECT_ID</key>
+	<string>pokesnakeben</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pokesnakeben.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:531355288606:ios:f02c2f3f8fadbff1</string>
+	<key>DATABASE_URL</key>
+	<string>https://pokesnakeben.firebaseio.com</string>
+</dict>
+</plist>

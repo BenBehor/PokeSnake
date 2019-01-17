@@ -7,27 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50BFC6621CA8101005C9C48 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50BFC6521CA8101005C9C48 /* SettingsViewController.swift */; };
 		B547061A21C101FF00400A93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B547061921C101FF00400A93 /* AppDelegate.swift */; };
 		B547061C21C101FF00400A93 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B547061B21C101FF00400A93 /* GameScene.sks */; };
-		B547061E21C101FF00400A93 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B547061D21C101FF00400A93 /* Actions.sks */; };
 		B547062021C101FF00400A93 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B547061F21C101FF00400A93 /* GameScene.swift */; };
 		B547062221C101FF00400A93 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B547062121C101FF00400A93 /* GameViewController.swift */; };
 		B547062521C101FF00400A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B547062321C101FF00400A93 /* Main.storyboard */; };
 		B547062721C1020000400A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B547062621C1020000400A93 /* Assets.xcassets */; };
 		B547062A21C1020000400A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B547062821C1020000400A93 /* LaunchScreen.storyboard */; };
+		B547063221C102D100400A93 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B547063121C102D100400A93 /* GameManager.swift */; };
+		B553587021D8DD67002FF07A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B553586F21D8DD67002FF07A /* GoogleService-Info.plist */; };
+		B5697D4C21CA8286003C7CFD /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5697D4B21CA8286003C7CFD /* CollectionViewController.swift */; };
+		B5697D4E21CA8484003C7CFD /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5697D4D21CA8484003C7CFD /* CollectionTableViewCell.swift */; };
+		B5C0ED4D21D0CD3400468BFF /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C0ED4C21D0CD3400468BFF /* LeaderboardViewController.swift */; };
+		B5C0ED4F21D0CD7100468BFF /* LeaderboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C0ED4E21D0CD7100468BFF /* LeaderboardTableViewCell.swift */; };
+		DDA9AE4181810C2CF92540D2 /* Pods_BenSnake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A644353FC1AEF02960A50AA /* Pods_BenSnake.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02E6F788297D1C2AD5030E12 /* Pods-BenSnake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenSnake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BenSnake/Pods-BenSnake.debug.xcconfig"; sourceTree = "<group>"; };
+		8A644353FC1AEF02960A50AA /* Pods_BenSnake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BenSnake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50BFC6521CA8101005C9C48 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		B547061621C101FF00400A93 /* BenSnake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenSnake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B547061921C101FF00400A93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B547061B21C101FF00400A93 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		B547061D21C101FF00400A93 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		B547061F21C101FF00400A93 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B547062121C101FF00400A93 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B547062421C101FF00400A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B547062621C1020000400A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B547062921C1020000400A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B547062B21C1020000400A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B547063121C102D100400A93 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		B553586F21D8DD67002FF07A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B5697D4B21CA8286003C7CFD /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		B5697D4D21CA8484003C7CFD /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		B5C0ED4C21D0CD3400468BFF /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		B5C0ED4E21D0CD7100468BFF /* LeaderboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewCell.swift; sourceTree = "<group>"; };
+		F458F54CA90C6D45093A44FE /* Pods-BenSnake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenSnake.release.xcconfig"; path = "Pods/Target Support Files/Pods-BenSnake/Pods-BenSnake.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA9AE4181810C2CF92540D2 /* Pods_BenSnake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3446B7CBE3D0CA793B22991C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02E6F788297D1C2AD5030E12 /* Pods-BenSnake.debug.xcconfig */,
+				F458F54CA90C6D45093A44FE /* Pods-BenSnake.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59CF1E439F3012D26CAD2907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A644353FC1AEF02960A50AA /* Pods_BenSnake.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B547060D21C101FF00400A93 = {
 			isa = PBXGroup;
 			children = (
 				B547061821C101FF00400A93 /* BenSnake */,
 				B547061721C101FF00400A93 /* Products */,
+				3446B7CBE3D0CA793B22991C /* Pods */,
+				59CF1E439F3012D26CAD2907 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +98,19 @@
 			children = (
 				B547061921C101FF00400A93 /* AppDelegate.swift */,
 				B547061B21C101FF00400A93 /* GameScene.sks */,
-				B547061D21C101FF00400A93 /* Actions.sks */,
 				B547061F21C101FF00400A93 /* GameScene.swift */,
 				B547062121C101FF00400A93 /* GameViewController.swift */,
 				B547062321C101FF00400A93 /* Main.storyboard */,
 				B547062621C1020000400A93 /* Assets.xcassets */,
 				B547062821C1020000400A93 /* LaunchScreen.storyboard */,
 				B547062B21C1020000400A93 /* Info.plist */,
+				B553586F21D8DD67002FF07A /* GoogleService-Info.plist */,
+				B547063121C102D100400A93 /* GameManager.swift */,
+				B50BFC6521CA8101005C9C48 /* SettingsViewController.swift */,
+				B5697D4B21CA8286003C7CFD /* CollectionViewController.swift */,
+				B5697D4D21CA8484003C7CFD /* CollectionTableViewCell.swift */,
+				B5C0ED4C21D0CD3400468BFF /* LeaderboardViewController.swift */,
+				B5C0ED4E21D0CD7100468BFF /* LeaderboardTableViewCell.swift */,
 			);
 			path = BenSnake;
 			sourceTree = "<group>";
@@ -80,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B547062E21C1020000400A93 /* Build configuration list for PBXNativeTarget "BenSnake" */;
 			buildPhases = (
+				C83874FA3C92F53A6CDBAE79 /* [CP] Check Pods Manifest.lock */,
 				B547061221C101FF00400A93 /* Sources */,
 				B547061321C101FF00400A93 /* Frameworks */,
 				B547061421C101FF00400A93 /* Resources */,
+				886FD4D9130CA1A6DBF5A91C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,21 +177,78 @@
 			files = (
 				B547062521C101FF00400A93 /* Main.storyboard in Resources */,
 				B547061C21C101FF00400A93 /* GameScene.sks in Resources */,
+				B553587021D8DD67002FF07A /* GoogleService-Info.plist in Resources */,
 				B547062721C1020000400A93 /* Assets.xcassets in Resources */,
 				B547062A21C1020000400A93 /* LaunchScreen.storyboard in Resources */,
-				B547061E21C101FF00400A93 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		886FD4D9130CA1A6DBF5A91C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BenSnake/Pods-BenSnake-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BenSnake/Pods-BenSnake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C83874FA3C92F53A6CDBAE79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BenSnake-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B547061221C101FF00400A93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C0ED4F21D0CD7100468BFF /* LeaderboardTableViewCell.swift in Sources */,
+				B5697D4C21CA8286003C7CFD /* CollectionViewController.swift in Sources */,
+				B50BFC6621CA8101005C9C48 /* SettingsViewController.swift in Sources */,
 				B547062021C101FF00400A93 /* GameScene.swift in Sources */,
+				B5697D4E21CA8484003C7CFD /* CollectionTableViewCell.swift in Sources */,
+				B547063221C102D100400A93 /* GameManager.swift in Sources */,
 				B547062221C101FF00400A93 /* GameViewController.swift in Sources */,
+				B5C0ED4D21D0CD3400468BFF /* LeaderboardViewController.swift in Sources */,
 				B547061A21C101FF00400A93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +393,7 @@
 		};
 		B547062F21C1020000400A93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E6F788297D1C2AD5030E12 /* Pods-BenSnake.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +411,7 @@
 		};
 		B547063021C1020000400A93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F458F54CA90C6D45093A44FE /* Pods-BenSnake.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
