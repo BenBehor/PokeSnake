@@ -17,6 +17,7 @@
 		B547062A21C1020000400A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B547062821C1020000400A93 /* LaunchScreen.storyboard */; };
 		B547063221C102D100400A93 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B547063121C102D100400A93 /* GameManager.swift */; };
 		B553587021D8DD67002FF07A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B553586F21D8DD67002FF07A /* GoogleService-Info.plist */; };
+		B568C21422422EDF003E636D /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B568C21322422EDF003E636D /* InfoViewController.swift */; };
 		B5697D4C21CA8286003C7CFD /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5697D4B21CA8286003C7CFD /* CollectionViewController.swift */; };
 		B5697D4E21CA8484003C7CFD /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5697D4D21CA8484003C7CFD /* CollectionTableViewCell.swift */; };
 		B5C0ED4D21D0CD3400468BFF /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C0ED4C21D0CD3400468BFF /* LeaderboardViewController.swift */; };
@@ -39,6 +40,7 @@
 		B547062B21C1020000400A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B547063121C102D100400A93 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		B553586F21D8DD67002FF07A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B568C21322422EDF003E636D /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		B5697D4B21CA8286003C7CFD /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		B5697D4D21CA8484003C7CFD /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
 		B5C0ED4C21D0CD3400468BFF /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				B5697D4D21CA8484003C7CFD /* CollectionTableViewCell.swift */,
 				B5C0ED4C21D0CD3400468BFF /* LeaderboardViewController.swift */,
 				B5C0ED4E21D0CD7100468BFF /* LeaderboardTableViewCell.swift */,
+				B568C21322422EDF003E636D /* InfoViewController.swift */,
 			);
 			path = BenSnake;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				B5697D4C21CA8286003C7CFD /* CollectionViewController.swift in Sources */,
 				B50BFC6621CA8101005C9C48 /* SettingsViewController.swift in Sources */,
 				B547062021C101FF00400A93 /* GameScene.swift in Sources */,
+				B568C21422422EDF003E636D /* InfoViewController.swift in Sources */,
 				B5697D4E21CA8484003C7CFD /* CollectionTableViewCell.swift in Sources */,
 				B547063221C102D100400A93 /* GameManager.swift in Sources */,
 				B547062221C101FF00400A93 /* GameViewController.swift in Sources */,

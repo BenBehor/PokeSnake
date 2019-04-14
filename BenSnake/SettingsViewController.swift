@@ -15,6 +15,14 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var mapSize: UISegmentedControl!
     @IBOutlet weak var savedBackground: UIImageView!
     
+    @IBAction func InfoButton(_ sender: UIButton) {
+        let popOverVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "sbInfoID") as! InfoViewController
+        self.addChild(popOverVC)
+        popOverVC.view.frame = self.view.frame
+        self.view.addSubview(popOverVC.view)
+        popOverVC.didMove(toParent: self)
+        
+    }
     @IBAction func saveButton(_ sender: UIButton) {
         
         switch grphics.selectedSegmentIndex {

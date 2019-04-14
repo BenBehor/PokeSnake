@@ -122,12 +122,30 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="57M-0I-rLz">
+                                <rect key="frame" x="327" y="36" width="32" height="60"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="awK-uV-N1X">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="10"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tj9-mP-WdR">
+                                        <rect key="frame" x="0.0" y="27" width="32" height="33"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Info"/>
+                                        <connections>
+                                            <action selector="InfoButton:" destination="6Zz-5u-5tI" eventType="touchUpInside" id="MlZ-7b-b71"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                         <constraints>
                             <constraint firstItem="NsJ-6d-vpW" firstAttribute="bottom" secondItem="bSi-cQ-dVj" secondAttribute="bottom" constant="32" id="gWu-tS-FLP"/>
                             <constraint firstItem="NsJ-6d-vpW" firstAttribute="trailing" secondItem="bSi-cQ-dVj" secondAttribute="trailing" constant="32" id="qTC-fg-m1m"/>
+                            <constraint firstItem="NsJ-6d-vpW" firstAttribute="trailing" secondItem="57M-0I-rLz" secondAttribute="trailing" constant="16" id="tnm-4P-GwU"/>
                             <constraint firstItem="bSi-cQ-dVj" firstAttribute="leading" secondItem="NsJ-6d-vpW" secondAttribute="leading" constant="32" id="w88-EU-km8"/>
+                            <constraint firstItem="57M-0I-rLz" firstAttribute="top" secondItem="NsJ-6d-vpW" secondAttribute="top" constant="16" id="ztq-fu-cHy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NsJ-6d-vpW"/>
                     </view>
@@ -142,7 +160,75 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QR9-b2-szb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-607" y="134"/>
+            <point key="canvasLocation" x="-607.20000000000005" y="133.5832083958021"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="ec9-EP-F3Q">
+            <objects>
+                <viewController storyboardIdentifier="sbInfoID" id="Oyt-hF-vFt" customClass="InfoViewController" customModule="BenSnake" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sVk-s1-jdf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7KO-QX-sEm">
+                                <rect key="frame" x="32" y="52" width="311" height="583"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yH-gS-X2C">
+                                        <rect key="frame" x="32" y="532" width="247" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Close"/>
+                                        <connections>
+                                            <action selector="closePopup:" destination="Oyt-hF-vFt" eventType="touchUpInside" id="wZO-wS-M8o"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5i8-na-lJ0">
+                                        <rect key="frame" x="26" y="36" width="240" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Game Tab: Play snake with pokemons, catch 151 unique pokemons from the original series and beat your own best score again and again.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ak0-8z-Vxk">
+                                        <rect key="frame" x="26" y="137" width="240" height="96"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Settings Tab: Choose a nickname, change game mode for a slower or faster snake &amp; bigger or smaller pokemons, So everyone can play it, even your grandpa</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L9Y-e0-n4J">
+                                        <rect key="frame" x="26" y="241" width="240" height="126"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Collection Tab: Catch all the pokemons to to unlock their backgrounds. swipe left on an unlocked background to save it as your favorite. It will shown on the leaderboard tab for everyone to see your catch!</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Welcome to PokeSnake -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vY8-ib-uSE">
+                                        <rect key="frame" x="8" y="8" width="295" height="20.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpS-O2-yjq">
+                                        <rect key="frame" x="26" y="374" width="240" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Leaderboard Tab: Here you can see the best of the best! the top 25 players who catched the most amounts of pokemons, their unique background and nickname. in order to be the best you must beat the best, so make sure to catch as many pokemons as possible</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.76432966319999995" green="0.33354218171584588" blue="0.32365265336682808" alpha="0.7678807218" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aoo-Dh-wW7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uyK-An-cYy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1282.4000000000001" y="133.5832083958021"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Lqc-Lw-yOI">
@@ -313,6 +399,7 @@
     <resources>
         <image name="collectionTab" width="32" height="33"/>
         <image name="gameTab" width="32" height="32"/>
+        <image name="info" width="10" height="10"/>
         <image name="leaderboardTab" width="32" height="35"/>
         <image name="pb1" width="400" height="225"/>
         <image name="settingsTab" width="32" height="30"/>

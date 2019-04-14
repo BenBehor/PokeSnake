@@ -41,7 +41,7 @@ class GameScene: SKScene {
     }
     
     override func didMove(to view: SKView) {
-        
+   
         initializeMenu()
         game = GameManager(scene: self)
         game.getLeaderboard()
